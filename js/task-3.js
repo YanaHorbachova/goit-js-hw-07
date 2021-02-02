@@ -39,9 +39,6 @@ galleryRef.insertAdjacentHTML("afterbegin", galleryCard.join(""));
 //   const liRef = document.createElement("li");
 //   const imgRef = document.createElement("img");
 
-//   liRef.classList.add("list-item");
-//   imgRef.classList.add("img-item");
-
 //   imgRef.setAttribute("src", image.url);
 //   imgRef.setAttribute("alt", image.alt);
 
