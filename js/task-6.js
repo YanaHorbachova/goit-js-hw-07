@@ -17,4 +17,3 @@ function handleInputBlur() {
   }
   return inputRef.classList.add("invalid"), inputRef.classList.remove("valid");
 }
-ы
