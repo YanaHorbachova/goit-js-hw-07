@@ -7,6 +7,8 @@ const input = document.querySelector('#name-input');
 input.addEventListener ('input', onInputChange);
 
 function onInputChange(event) {
-    console.log (event.currentTarget.value);
-    nameLabel.textContent = event.currentTarget.value;
+  nameLabel.textContent = event.currentTarget.value;
+  if (nameLabel.textContent === '') {
+    nameLabel.textContent = 'незнакомец';
+  }
 }
